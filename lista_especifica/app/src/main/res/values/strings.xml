@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Apresentação Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="msgAtencao">Atenção</string>
+    <string name="msgUsuarioInvalido">Usuário ou Senha Inválida</string>
+    <string name="title_activity_mnt_contatos">Contatos</string>
+</resources>
