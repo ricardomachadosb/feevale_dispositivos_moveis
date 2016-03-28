@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="login"
+        style="@style/TextoFixo.central"
+        android:id="@+id/tvTitulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nome"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/tvTitulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="98dp" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNome"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/tvTitulo"
+        android:layout_alignStart="@+id/tvTitulo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Senha"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtSenha"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/edtNome"
+        android:layout_alignStart="@+id/edtNome"
+        android:layout_alignRight="@+id/edtNome"
+        android:layout_alignEnd="@+id/edtNome" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login 1"
+        android:id="@+id/button"
+        android:onClick="executaLogin"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/app_name"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/tvTitulo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login 2"
+        android:id="@+id/button3"
+        android:layout_marginTop="12dp"
+        android:onClick="executaLoginPorActivitie"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
